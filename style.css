@@ -1,6 +1,7 @@
-#Change-Color{
-    color: blue;
+:root {
+    --test-color: pink;
 }
-.Second-color{
-    font-size: 50px;
+
+h1 {
+    color: var(--test-color);
 }
